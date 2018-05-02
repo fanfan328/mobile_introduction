@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PraUTS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="roles">
+        <item>Administrator</item>
+        <item>Manager</item>
+        <item>End-User</item>
+    </string-array>
+</resources>

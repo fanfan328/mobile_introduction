@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Username:"></TextView>
+            <EditText
+                android:id="@+id/usernameET"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"></EditText>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"></TextView>
+            <EditText
+                android:id="@+id/passwordET"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"></EditText>
+        </TableRow>
+        <TableRow>
+            <Space
+                android:layout_weight="1"
+                android:layout_width="0dp"></Space>
+            <CheckBox
+                android:id="@+id/rememberMeCB"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Requerdamé"></CheckBox>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cancelB"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"></Button>
+            <Button
+                android:id="@+id/loginB"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Login"></Button>
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

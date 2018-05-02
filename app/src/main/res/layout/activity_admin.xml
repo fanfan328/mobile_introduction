@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <Button
+                android:id="@+id/addB"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Add New"></Button>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/loginTV"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="\???"
+                android:textAlignment="center"></TextView>
+        </TableRow>
+        <TableRow>
+            <ListView
+                android:id="@+id/usersLV"
+                android:layout_weight="1"
+                android:layout_width="0dp"></ListView>
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
